@@ -77,7 +77,7 @@
     <preference name="AndroidLaunchMode"    		value="singleTop" />
     <preference name="OverrideUserAgent"    		value="Mozilla/5.0 My Browser" />
     <preference name="AppendUserAgent"    			value="So awesome" />
-	
+    <preference name="android-build-tool" value="gradle" />
 	
     <!--
         Define a specific version of PhoneGap to build into your app.
