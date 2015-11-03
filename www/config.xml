@@ -21,8 +21,8 @@
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
     -->
-    <preference name="phonegap-version"				value="cli-5.2.0"/>
-    <preference name="permissions"					value="none"/>
+    <preference name="phonegap-version"			value="cli-5.2.0"/>
+    <preference name="permissions"			value="none"/>
 
         <!-- Customize your app and platform with the preference element. -->
 	<!-- ############### UNIVERSAL ######################## -->
@@ -34,31 +34,28 @@
 	<!-- Documentation: http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences -->
     <preference name="target-device"              	value="universal" />
     <preference name="prerendered-icon"           	value="true" />
-    <preference name="detect-data-types"            value="true" />
+    <preference name="detect-data-types"            	value="true" />
     <preference name="exit-on-suspend"         		value="false" />
     <preference name="deployment-target"          	value="7.0" />
     <preference name="exit-on-suspend"            	value="false" />
 	<!-- Documentation: http://cordova.apache.org/docs/en/5.1.1/guide_platforms_ios_config.md.html#iOS%20Configuration -->
-    <preference name="EnableViewportScale" 					value="true" />
+    <preference name="EnableViewportScale" 			value="true" />
     <preference name="MediaPlaybackRequiresUserAction"    	value="true" />
-    <preference name="AllowInlineMediaPlayback" 			value="true" />
-    <preference name="BackupWebStorage" 					value="cloud" />
-    <preference name="TopActivityIndicator" 				value="gray" />
+    <preference name="AllowInlineMediaPlayback" 		value="true" />
+    <preference name="BackupWebStorage" 			value="cloud" />
+    <preference name="TopActivityIndicator" 			value="gray" />
     <preference name="KeyboardDisplayRequiresUserAction" 	value="true" />
     <preference name="SuppressesIncrementalRendering" 		value="true" />
-    <preference name="GapBetweenPages" 						value="0" />
-    <preference name="PageLength" 							value="0" />
-    <preference name="PaginationBreakingMode" 				value="page" />
-    <preference name="PaginationMode" 						value="unpaginated" />
-    <preference name="UIWebViewDecelerationSpeed" 			value="normal" />
-    <preference name="ErrorUrl" 							value="" />
-    <preference name="OverrideUserAgent"    				value="Mozilla/5.0 My Browser" />
-    <preference name="AppendUserAgent"    					value="So awesome" />
+    <preference name="GapBetweenPages" 				value="0" />
+    <preference name="PageLength" 				value="0" />
+    <preference name="PaginationBreakingMode" 			value="page" />
+    <preference name="PaginationMode" 				value="unpaginated" />
+    <preference name="UIWebViewDecelerationSpeed" 		value="normal" />
 	
 	<!-- ############### ANDROID ######################## -->
 	<!-- Documentation: http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences -->
     <preference name="android-installLocation"    	value="auto" />
-    <preference name="android-minSdkVersion"      	value="7" />
+    <preference name="android-minSdkVersion"      	value="14" />
     <preference name="android-maxSdkVersion"    	value="" />
     <preference name="android-targetSdkVersion"    	value="" />
     <preference name="android-windowSoftInputMode"	value="stateVisible|adjustResize" />
