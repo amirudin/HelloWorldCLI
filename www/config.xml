@@ -74,7 +74,6 @@
     <preference name="AndroidLaunchMode"    		value="singleTop" />
     <preference name="OverrideUserAgent"    		value="Mozilla/5.0 My Browser" />
     <preference name="AppendUserAgent"    		value="So awesome" />
-    <preference name="android-build-tool" 		value="gradle" />
 	
 	
     <!--
@@ -108,8 +107,6 @@
     <!--
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
-    
-    <gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />
     
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
