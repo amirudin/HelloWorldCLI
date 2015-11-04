@@ -107,7 +107,9 @@
     <!--
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
-
+    
+    <gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" />
+    
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
 	
